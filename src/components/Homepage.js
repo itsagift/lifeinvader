@@ -1,10 +1,11 @@
 import Timeline from "./Timeline";
 import Sidebar from './Sidebar';
+import Navbar from './Navbar';
 
 const Homepage = () => {
     return (
         <div>
-            <h2>Welcome to Lifeinvader</h2>
+            <Navbar/>
             <Timeline/>
             <Sidebar/>
         </div>
