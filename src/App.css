@@ -21,3 +21,32 @@
   text-decoration: none;
   
 }
+.timeline{
+  margin-top: 3%;
+  background-color: #eee;
+}
+
+.post{
+  max-width: 23%;
+  background-color: #fff;
+  height: min-content;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.post-img{
+  width: 100%;
+  border-radius: 10px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.post-content{
+  font-size: 1.3em;
+  line-height: 1.7em;
+  padding: 2.5%;
+}
+
+.post-feed{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2%;
+}
