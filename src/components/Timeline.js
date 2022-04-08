@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import Post from './Post';
 
 //useEffect = allows you to do effects when something is loaded. RUN IT IN COMPONEN!
 const Timeline = () => {
@@ -14,12 +15,9 @@ const Timeline = () => {
     <div>
       <h2>Timeline</h2>
         {
-          posts.map((element) => {
+          posts.map((post) => {
             return(
-              <div>
-                <p>Post by {element.username}</p>
-                <p>{element.content}</p>
-              </div>
+              <Post post={post} />
             )
           })
         }
